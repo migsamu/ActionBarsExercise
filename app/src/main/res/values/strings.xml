@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ActionBarsExercise</string>
+    <string name="anterior">Anterior</string>
+    <string name="compartir">Compartir</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="marcar_como_pagada">Marcar como pagada</string>
+    <string name="enviar">Enviar</string>
+    <string name="imprimir">Imprimir</string>
+    <string name="generar_pdf">Generar PDF</string>
+    <string name="escriba_aqui">Escriba aquí</string>
+</resources>
