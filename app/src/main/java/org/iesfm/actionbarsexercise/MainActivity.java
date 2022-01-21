@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         init();
+        getInfo();
     }
 
     @Override
@@ -37,7 +38,10 @@ public class MainActivity extends AppCompatActivity {
         etEnviado = (EditText) findViewById(R.id.ma_etEnviado);
     }
 
-
+    public void getInfo() {
+        String textoRecibido = getIntent().getStringExtra(SegundaPantalla.TEXTO_ENVIADO);
+        tvRecibido.setText(textoRecibido);
+    }
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
